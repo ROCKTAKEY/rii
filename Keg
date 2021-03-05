@@ -1,0 +1,6 @@
+(source gnu melpa)
+
+(package (rii
+          (recipe . (:fetcher github :repo "ROCKTAKEY/rii"))))
+
+(dev-dependency undercover)
