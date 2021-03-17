@@ -7,7 +7,7 @@
   through the buttons in the buffer.
   #+begin_center
   [[https://raw.githubusercontent.com/ROCKTAKEY/images/038c4569ee95c2e1bb977947d0e8c0487591e2c2/demo.gif]]
-  Fig. 1 Demo of =rii=
+  Fig. 1 Demo of =rii= (recorded with [[https://github.com/tarsius/keycast][keycast.el]])
   #+end_center
   #+begin_src emacs-lisp :tangle yes
     (rii ((editor (completing-read "Favorite editor: " '("Emacs" "Vim" "VSCode")))
