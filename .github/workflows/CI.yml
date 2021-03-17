@@ -6,13 +6,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     continue-on-error:
-      ${{ contains(fromJson('["24.1", "24.2", "snapshot"]'), matrix.emacs_version) }}
+      ${{ contains(fromJson('["snapshot"]'), matrix.emacs_version) }}
     strategy:
       fail-fast: false
       matrix:
         emacs_version:
-          - '24.1'
-          - '24.2'
           - '24.3'
           - '24.4'
           - '24.5'
